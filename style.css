@@ -140,11 +140,11 @@ HOME
 }
 
 .home .hero .img-bottom.img-left {
-    height: 50vh;
+    height: 60vh;
 }
 
 .home .hero .img-bottom.img-right {
-    height: 60vh;
+    height: 70vh;
 }
 
 /* Sets the wedding date below the h1 */
@@ -345,11 +345,11 @@ p.subtext a:hover {
   } */
 
 img.img-remark {
-    width: 40vw;
+    width: 80vw;
 }
 
 img.remark-top {
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
 }
 
 a.button {
@@ -386,11 +386,11 @@ section.gift img {
 }
 
 section.gift img.img-bottom.img-left {
-    height: 40vw;
+    height: 50vw;
 }
 
 section.gift img.img-bottom.img-right {
-    height: 50%;
+    height: 60%;
 }
 
 .midtext {
@@ -402,7 +402,7 @@ PAGE WHERE
 ***/
 
 .internal .hero .img-bottom.img-right {
-    width: 50vw;
+    width: 60vw;
     z-index: 0;
     right: -10%;
     bottom: -10%;
