@@ -501,6 +501,7 @@ div.navigation .test div {
 
 div.navigation .test div p {
     color: var(--green);
+    white-space: nowrap;
 }
 
 div.navigation a.logo:hover .test {
@@ -509,6 +510,12 @@ div.navigation a.logo:hover .test {
 
 .internal section.hero {
     padding: 0em 10em;
+}
+
+.full-width-form {
+    width: 100vw;
+    margin-left: -10em;
+    margin-right: -10em;
 }
 
 .internal h1 {
@@ -1192,6 +1199,11 @@ RESPONSIVENESS
 
     .internal section.hero {
         padding: 0 5rem;
+    }
+
+    .full-width-form {
+        margin-left: -5rem;
+        margin-right: -5rem;
     }
 
     .internal .hero .img-bottom.img-right {
