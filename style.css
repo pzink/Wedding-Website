@@ -373,6 +373,11 @@ a.button:hover {
     transform: scale(1.05);
 }
 
+a.bigtext.button,
+a.bigtext.button span {
+    color: white !important;
+}
+
 /*** GIFT SECTION ***/
 
 section.gift {
