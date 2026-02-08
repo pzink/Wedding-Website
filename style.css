@@ -136,7 +136,7 @@ HOME
 }
 
 .home .hero .img-top.img-right {
-    height: 40vh;
+    height: 30vh;
 }
 
 .home .hero .img-bottom.img-left {
@@ -636,12 +636,12 @@ ANIMATIONS
 
 .arrow-bounce {
     position: absolute;
-    color: var(--light-green);
-    bottom: 2rem;
+    color: var(--dark-green);
+    bottom: 4rem;
 }
 
 .arrow-bounce i {
-    opacity: 30%;
+    opacity: 50%;
 }
 
 
