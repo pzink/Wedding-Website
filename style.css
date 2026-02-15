@@ -225,9 +225,19 @@ div.divider.bottom {
 }
 
 
-p.subtext {
+p.subtext,
+ul.subtext {
     font-size: 1.5rem;
     margin: 0px;
+    color: var(--green);
+    text-align: center;
+}
+
+ul.subtext {
+    list-style-position: inside;
+    padding-left: 0;
+    color: var(--green);
+    text-align: left;
 }
 
 a:visited {
@@ -304,15 +314,17 @@ p.hugetext a
     transition: all .5s ease-in-out;
 }
 
-p.subtext a {
+p.subtext a,
+ul.subtext a {
     color: var(--text);
     font-weight: bolder;
-    font-style: italic;
+    text-align: left;
 }
 
 p.bigtext a:hover,
 p.hugetext a:hover,
-p.subtext a:hover {
+p.subtext a:hover,
+ul.subtext a:hover {
     color: var(--red);
 }
 
@@ -1372,13 +1384,14 @@ table tbody td:first-child {
     font-size: 1rem;
     color: var(--green);
     width: 25%;
-    text-align: center;
+    text-align: left;
 }
 
 table tbody td:last-child {
     font-size: 1rem;
     font-weight: 300;
     width: 75%;
+    text-align: left;
 }
 
 table tbody tr:last-child td {
